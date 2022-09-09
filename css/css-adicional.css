@@ -1,0 +1,54 @@
+header.masthead{
+    background-image: url("../assets/img/landing-bg-cover-op2.png") !important;
+}
+
+.masthead a.btn-primary, .modal-body .btn-primary{
+    background: #F9C1C5 !important;
+    background-color: #F9C1C5 !important;
+    color: #000;
+    border: 0px solid #000;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover{
+    color:  #F9C1C5 !important;
+}
+
+#services div span svg.fa-circle{
+    color: #F9C1C5 !important;
+}
+
+.portfolio-item{
+    max-height: 90% !important;
+}
+
+.portfolio-caption{
+    min-height: 160px;
+}
+
+#portfolio .portfolio-item .portfolio-link{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    background-color: rgba(249, 193, 197, 0.9) !important;
+    /* background: rgba(255, 200, 0, 0.9);(249,193,197, 0.9) */
+}
+
+section#contact {
+    background-color: #212529;
+    /* background-image: url("../assets/img/contacto-up.jpg"); */
+    background-image: url("../assets/img/contacto-down.jpg") !important;
+}
+
+h3.section-subheading{
+    color: #EEF7FF !important;
+}
+
+section#services, section#portfolio{
+    padding-top: 4%;
+}
+
+ul.timeline li{
+    margin-bottom: 10px !important;
+}
