@@ -1,5 +1,5 @@
 header.masthead{
-    background-image: url("../assets/img/landing-bg-cover-op2.png") !important;
+    background-image: url("../assets/img/landing-bg-cover-op2-web.jpg") !important;
 }
 
 .masthead a.btn-primary, .modal-body .btn-primary{
@@ -38,7 +38,7 @@ header.masthead{
 section#contact {
     background-color: #212529;
     /* background-image: url("../assets/img/contacto-up.jpg"); */
-    background-image: url("../assets/img/contacto-down.jpg") !important;
+    background-image: url("../assets/img/contacto-down-web.jpg") !important;
 }
 
 h3.section-subheading{
