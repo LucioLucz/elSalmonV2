@@ -1,7 +1,11 @@
 header.masthead{
-    background-image: url("../assets/img/landing-bg-cover-op2-web.jpg") !important;
+    /* background-image: url("../assets/img/landing-bg-cover-op2-web.jpg") !important; */
+    background-image: url("../assets/img/Salmon_AhumadoLogoBg.jpg") !important;
+    padding-top: 200px;
 }
-
+.masthead-subheading{
+    color: #000 !important;
+}
 .masthead a.btn-primary, .modal-body .btn-primary{
     background: #F9C1C5 !important;
     background-color: #F9C1C5 !important;
@@ -18,11 +22,15 @@ header.masthead{
 }
 
 .portfolio-item{
-    max-height: 90% !important;
+    max-height: 80% !important;
 }
 
-.portfolio-caption{
+/* .portfolio-caption{
     min-height: 160px;
+} */
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    min-height: 108px !important;
 }
 
 #portfolio .portfolio-item .portfolio-link{
@@ -41,9 +49,9 @@ section#contact {
     background-image: url("../assets/img/contacto-down-web.jpg") !important;
 }
 
-h3.section-subheading{
+/* h3.section-subheading{
     color: #EEF7FF !important;
-}
+} */
 
 section#services, section#portfolio{
     padding-top: 4%;
@@ -52,3 +60,73 @@ section#services, section#portfolio{
 ul.timeline li{
     margin-bottom: 10px !important;
 }
+
+.logo-container{
+    max-width: 500px;
+    max-height: 400px;
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo_ppal_home{
+    width: 100%;
+    margin-bottom: 80px;
+    /* max-height: 500px; */
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    color: #23A176 !important;
+}
+
+/* @media (max-width: 480px){
+    .modal-body h2{
+        font-size: 2rem !important;
+    }
+}
+*/
+@media (min-width: 992px) and (max-width: 1150px){
+    /* .portfolio-caption{
+        min-height: 290px !important;
+    } */
+    #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading{
+        /* min-height: 200px !important; */
+        height: 200px !important;
+    }
+    /* .portfolio-caption-heading-item2{
+        font-size: 1.1rem !important;
+    } */
+} 
+
+@media (min-width:576px) and (max-width: 991px){
+    #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading{
+        min-height: 108px !important;
+        /* font-size: 1rem !important; */
+    }
+}
+
+@media (max-width:767px){
+    .portfolio-item .portfolio-caption {
+        padding: 0.8rem !important;
+    }
+}
+
+@media (max-width: 480px){
+    .modal-body h2{
+        font-size: 2rem !important;
+    }
+    .modal-body p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px){
+    .modal-body h2{
+        font-size: 1.5rem !important;
+    }
+    .modal-body p{
+        font-size: 0.8rem;
+    }
+}
+
+
