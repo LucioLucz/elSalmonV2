@@ -46,12 +46,9 @@ header.masthead{
 section#contact {
     background-color: #212529;
     /* background-image: url("../assets/img/contacto-up.jpg"); */
-    background-image: url("../assets/img/contacto-down-web.jpg") !important;
+    /* background-image: url("../assets/img/contacto-down-web.jpg") !important; */
+    background-image: url("../assets/img/footer-arena.png") !important;
 }
-
-/* h3.section-subheading{
-    color: #EEF7FF !important;
-} */
 
 section#services, section#portfolio{
     padding-top: 4%;
@@ -73,6 +70,11 @@ ul.timeline li{
     width: 100%;
     margin-bottom: 80px;
     /* max-height: 500px; */
+}
+
+h2.section-heading{
+    /* color: #EEF7FF !important; */
+    color: #000 !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
