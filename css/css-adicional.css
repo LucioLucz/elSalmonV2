@@ -2,6 +2,8 @@ header.masthead{
     /* background-image: url("../assets/img/landing-bg-cover-op2-web.jpg") !important; */
     background-image: url("../assets/img/Salmon_AhumadoLogoBg.jpg") !important;
     padding-top: 200px;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: luminosity;
 }
 .masthead-subheading{
     color: #000 !important;
@@ -44,10 +46,12 @@ header.masthead{
 }
 
 section#contact {
-    background-color: #212529;
-    /* background-image: url("../assets/img/contacto-up.jpg"); */
-    /* background-image: url("../assets/img/contacto-down-web.jpg") !important; */
-    background-image: url("../assets/img/footer-arena.png") !important;
+    /* background-color: #212529; */
+    /* background-image: url("../assets/img/footer-arena.png") !important; */
+    background-image: url("../assets/img/Salmon_AhumadoLogoBg.jpg") !important;
+    background-size: cover;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: luminosity;
 }
 
 section#services, section#portfolio{
@@ -106,10 +110,39 @@ h2.section-heading{
         /* font-size: 1rem !important; */
     }
 }
+@media (min-width:767px){
+    ul.timeline{
+        display: flex;
+    }
+    ul.timeline li{
+        width: 50%;
+    }
+    ul.timeline li .timeline-panel{
+        width: 100%;
+    }
+    ul.timeline li .timeline-panel .timeline-body p{
+        line-height: 1.5;
+    }
+    
 
+}
 @media (max-width:767px){
     .portfolio-item .portfolio-caption {
         padding: 0.8rem !important;
+    }
+
+    #portfolio .portfolio-item .img-fluid{
+        border-top: 1px solid #000;
+        width: 100%;
+        max-height: 150px;
+        object-fit: cover;
+        border-bottom: 1px solid #000;
+    }
+}
+
+@media (max-width:767px) and (orientation:landscape) {
+    .masthead{
+        max-height: 100vh;
     }
 }
 
@@ -131,4 +164,24 @@ h2.section-heading{
     }
 }
 
+.section-banner{
+    width: 100%;
+    height: 100px;
+    background-image: url(../assets/img/footer-arena.png) !important;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(000, 000, 000, .7);
+    background-blend-mode: hard-light;
+}
 
+#contact .btn-social{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+#contact .svg-inline--fa {
+    height: 2em;
+}
+.link-luchka{
+    text-decoration: none;
+    color: #23A176 !important;
+}
